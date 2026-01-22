@@ -1,17 +1,18 @@
+version: 2
+
 models:
   - name: dim_listings_cleansed
     description: Cleansed table which contains Airbnb listings.
     columns:
-
       - name: listing_id
         description: Primary key for the listing
-        data_tests:
+        tests:
           - unique
           - not_null
 
       - name: host_id
         description: The host's id. References the host table.
-        data_tests:
+        tests:
           - not_null
           - relationships:
               arguments:
@@ -20,7 +21,7 @@ models:
 
       - name: room_type
         description: Type of the apartment / room
-        data_tests:
+        tests:
           - accepted_values:
               arguments:
                 values:
@@ -31,24 +32,25 @@ models:
 
       - name: minimum_nights
         description: "{{ doc('dim_listing_cleansed__minimum_nights') }}"
-        data_tests:
+        tests:
           - not_null
           - dbt_utils.accepted_range:
               arguments:
                 min_value: 1
+
   - name: dim_hosts_cleansed
     columns:
       - name: host_id
-        data_tests:
+        tests:
           - not_null
           - unique
 
       - name: host_name
-        data_tests:
+        tests:
           - not_null
 
       - name: is_superhost
-        data_tests:
+        tests:
           - accepted_values:
               arguments:
                 values: ['t', 'f']
@@ -56,21 +58,31 @@ models:
   - name: fct_reviews
     columns:
       - name: listing_id
-        data_tests:
+        tests:
           - relationships:
               arguments:
                 to: ref('dim_listings_cleansed')
                 field: listing_id
 
       - name: reviewer_name
-        data_tests:
+        tests:
           - not_null
 
       - name: review_sentiment
-        data_tests:
+        tests:
           - accepted_values:
               arguments:
                 values:
                   - 'positive'
                   - 'neutral'
                   - 'negative'
+
+  - name: dim_listings_w_hosts
+    columns:
+      - name: price
+        tests:
+          - dbt_expectations.expect_column_quantile_values_to_be_between:
+              arguments:
+                quantile: 0.95
+                min_value: 50
+                max_value: 500

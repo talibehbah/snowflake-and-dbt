@@ -1021,7 +1021,7 @@ vars:
 
 An example of passing variables:
 ```
-dbt run-operation learn_variables --vars "{user_name: zoltanctoth}"
+dbt run-operation learn_variables --vars "{user_name: cbah}"
 ```
 
 More information on variable passing: https://docs.getdbt.com/docs/build/project-variables
