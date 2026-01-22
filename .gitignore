@@ -10,12 +10,6 @@ airbnb/profiles.yml
 logs/
 venv/
 
-**/__pycache__/
-*.pyc
-tmp*/
-
-/my_dbt_dagster_project
-
 .claude
 .user.yml
 .DS_Store
