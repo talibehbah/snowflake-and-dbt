@@ -1,0 +1,61 @@
+2026-01-24 01:56:26.705 +11:00 [INF] Connection: Authenticator: username_password_mfa; Host: dinedfp-fs51767.snowflakecomputing.com; Account: "dinedfp-fs51767"; User: CBAH; Warehouse: COMPUTE_WH
+2026-01-24 01:56:26.717 +11:00 [INF] Job ID was assigned [Job ID = JOB_20260123145626_UYYBYVME].
+2026-01-24 01:56:26.717 +11:00 [INF] Mapping objects.
+2026-01-24 01:56:26.722 +11:00 [INF] Object mapping was completed.
+2026-01-24 01:56:26.722 +11:00 [INF] Mapping excluded objects.
+2026-01-24 01:56:26.722 +11:00 [INF] Excluded objects mapping was completed.
+2026-01-24 01:56:26.722 +11:00 [INF] Filtering Objects from Excluded Objects.
+2026-01-24 01:56:26.722 +11:00 [INF] Filtering Objects from Excluded Objects completed.
+2026-01-24 01:56:26.722 +11:00 [INF] Creating database SNOWCONVERT_AI.
+2026-01-24 01:56:26.810 +11:00 [INF] Skipping creation of DATABASE SNOWCONVERT_AI, it already exists
+2026-01-24 01:56:26.810 +11:00 [INF] Creating schema SNOWCONVERT_AI.PUBLIC.
+2026-01-24 01:56:26.867 +11:00 [INF] Skipping creation of SCHEMA SNOWCONVERT_AI.PUBLIC, it already exists
+2026-01-24 01:56:26.867 +11:00 [INF] Creating stage.
+2026-01-24 01:56:26.867 +11:00 [INF] Creating stage.
+2026-01-24 01:56:26.925 +11:00 [INF] Skipping creation of STAGE SNOWCONVERT_AI.PUBLIC.MIGRATIONS, it already exists
+2026-01-24 01:56:26.983 +11:00 [INF] Skipping creation of STAGE SNOWCONVERT_AI.PUBLIC.MIGRATIONS_OUT, it already exists
+2026-01-24 01:56:26.983 +11:00 [INF] Writing code to stage.
+2026-01-24 01:56:26.984 +11:00 [INF] Generating zip file source.zip from directory F:\food_mart_snowconvert/source.
+2026-01-24 01:56:26.991 +11:00 [INF] Generating zip file converted.zip from directory F:\food_mart_snowconvert/converted.
+2026-01-24 01:56:27.050 +11:00 [INF] Writing zip files to ai-verification/JOB_20260123145626_UYYBYVME/input.
+2026-01-24 01:56:27.439 +11:00 [INF] Finished writing code to stage.
+2026-01-24 01:56:27.439 +11:00 [INF] Starting AI Verification job.
+2026-01-24 01:56:27.439 +11:00 [INF] Base URL for AI Verification API: https://dinedfp-fs51767.snowflakecomputing.com
+2026-01-24 01:56:27.439 +11:00 [INF] Creating migration project MIGRATION_PROJECT_425ef951_fbe2_4570_9748_5dff53920feb in Snowflake Account.
+2026-01-24 01:56:27.530 +11:00 [INF] Creating agent job for migration MIGRATION_PROJECT_425ef951_fbe2_4570_9748_5dff53920feb in Snowflake Account.
+2026-01-24 01:56:30.214 +11:00 [INF] Successfully started AI Verification Job (id = JOB_20260123145626_UYYBYVME).
+2026-01-24 01:56:30.215 +11:00 [INF] Started listening for progress updates from the AI Verification Job.
+2026-01-24 01:56:30.215 +11:00 [INF] Reading current status
+2026-01-24 01:56:30.373 +11:00 [INF] Job JOB_20260123145626_UYYBYVME is in state Last Updated: 23/01/2026 2:56:30 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 01:56:30.652 +11:00 [INF] Reading current status
+2026-01-24 01:56:30.808 +11:00 [INF] Job JOB_20260123145626_UYYBYVME is in state Last Updated: 23/01/2026 2:56:30 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 01:56:35.375 +11:00 [INF] Reading current status
+2026-01-24 01:56:35.765 +11:00 [INF] Job JOB_20260123145626_UYYBYVME has status Last Updated: 23/01/2026 2:56:35 PM, Agent Status: RUNNING, Exit Code: . Reading status from progress file.
+2026-01-24 01:56:35.765 +11:00 [INF] Downloading job status data for job JOB_20260123145626_UYYBYVME.
+2026-01-24 01:56:35.765 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123145626_UYYBYVME/output/progress.json
+2026-01-24 01:56:35.766 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123145626_UYYBYVME.
+2026-01-24 01:56:43.930 +11:00 [WRN] No progress.json file found for job JOB_20260123145626_UYYBYVME.
+2026-01-24 01:56:43.930 +11:00 [WRN] No progress update found for job JOB_20260123145626_UYYBYVME with status Last Updated: 23/01/2026 2:56:35 PM, Agent Status: RUNNING, Exit Code: 
+2026-01-24 01:56:48.931 +11:00 [INF] Reading current status
+2026-01-24 01:56:49.168 +11:00 [INF] Job JOB_20260123145626_UYYBYVME has status Last Updated: 23/01/2026 2:56:49 PM, Agent Status: RUNNING, Exit Code: . Reading status from progress file.
+2026-01-24 01:56:49.168 +11:00 [INF] Downloading job status data for job JOB_20260123145626_UYYBYVME.
+2026-01-24 01:56:49.168 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123145626_UYYBYVME/output/progress.json
+2026-01-24 01:56:49.169 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123145626_UYYBYVME.
+2026-01-24 01:56:57.742 +11:00 [WRN] No progress.json file found for job JOB_20260123145626_UYYBYVME.
+2026-01-24 01:56:57.742 +11:00 [WRN] No progress update found for job JOB_20260123145626_UYYBYVME with status Last Updated: 23/01/2026 2:56:49 PM, Agent Status: RUNNING, Exit Code: 
+2026-01-24 01:57:02.743 +11:00 [INF] Reading current status
+2026-01-24 01:57:03.033 +11:00 [INF] Job JOB_20260123145626_UYYBYVME has status Last Updated: 23/01/2026 2:57:03 PM, Agent Status: RUNNING, Exit Code: . Reading status from progress file.
+2026-01-24 01:57:03.033 +11:00 [INF] Downloading job status data for job JOB_20260123145626_UYYBYVME.
+2026-01-24 01:57:03.033 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123145626_UYYBYVME/output/progress.json
+2026-01-24 01:57:03.033 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123145626_UYYBYVME.
+2026-01-24 01:57:10.322 +11:00 [WRN] No progress.json file found for job JOB_20260123145626_UYYBYVME.
+2026-01-24 01:57:10.322 +11:00 [WRN] No progress update found for job JOB_20260123145626_UYYBYVME with status Last Updated: 23/01/2026 2:57:03 PM, Agent Status: RUNNING, Exit Code: 
+2026-01-24 01:57:15.325 +11:00 [INF] Reading current status
+2026-01-24 01:57:15.522 +11:00 [INF] Job JOB_20260123145626_UYYBYVME has status Last Updated: 23/01/2026 2:57:15 PM, Agent Status: FAILED, Exit Code: 23. Reading status from progress file.
+2026-01-24 01:57:15.522 +11:00 [INF] Downloading job status data for job JOB_20260123145626_UYYBYVME.
+2026-01-24 01:57:15.522 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123145626_UYYBYVME/output/progress.json
+2026-01-24 01:57:15.522 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123145626_UYYBYVME.
+2026-01-24 01:57:22.709 +11:00 [WRN] No progress.json file found for job JOB_20260123145626_UYYBYVME.
+2026-01-24 01:57:22.709 +11:00 [WRN] No progress update found for job JOB_20260123145626_UYYBYVME with status Last Updated: 23/01/2026 2:57:15 PM, Agent Status: FAILED, Exit Code: 23
+2026-01-24 01:57:22.709 +11:00 [INF] Progress update for job JOB_20260123145626_UYYBYVME has been read (Status = "Error", Progress = 0/23).
+2026-01-24 01:57:27.709 +11:00 [INF] Job JOB_20260123145626_UYYBYVME has finished. No further progress updates will be read.

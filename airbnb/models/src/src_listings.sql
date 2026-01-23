@@ -1,17 +1,3 @@
-WITH raw_listings AS (
-    
-    SELECT * FROM {{source('airbnb', 'listings')}}
-)
-SELECT
-    id AS listing_id,
-    name AS listing_name,
-    listing_url,
-    room_type,
-    minimum_nights,
-    host_id,
-    price AS price_str,
-    created_at,
-    updated_at
-FROM
-    raw_listings
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e17d97c8e74670f848b66a2bc287bf037ded8159efce06e9a0048a0407fcd984
+size 296

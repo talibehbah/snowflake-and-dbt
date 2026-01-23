@@ -1,0 +1,133 @@
+2026-01-24 02:00:50.320 +11:00 [INF] Connection: Authenticator: username_password_mfa; Host: dinedfp-fs51767.snowflakecomputing.com; Account: "dinedfp-fs51767"; User: CBAH; Warehouse: COMPUTE_WH
+2026-01-24 02:00:50.326 +11:00 [INF] Job ID was assigned [Job ID = JOB_20260123150050_IZF3YAV1].
+2026-01-24 02:00:50.326 +11:00 [INF] Mapping objects.
+2026-01-24 02:00:50.337 +11:00 [INF] Object mapping was completed.
+2026-01-24 02:00:50.337 +11:00 [INF] Mapping excluded objects.
+2026-01-24 02:00:50.338 +11:00 [INF] Excluded objects mapping was completed.
+2026-01-24 02:00:50.338 +11:00 [INF] Filtering Objects from Excluded Objects.
+2026-01-24 02:00:50.338 +11:00 [INF] Filtering Objects from Excluded Objects completed.
+2026-01-24 02:00:50.338 +11:00 [INF] Creating database SNOWCONVERT_AI.
+2026-01-24 02:00:50.713 +11:00 [INF] Skipping creation of DATABASE SNOWCONVERT_AI, it already exists
+2026-01-24 02:00:50.713 +11:00 [INF] Creating schema SNOWCONVERT_AI.PUBLIC.
+2026-01-24 02:00:51.098 +11:00 [INF] Skipping creation of SCHEMA SNOWCONVERT_AI.PUBLIC, it already exists
+2026-01-24 02:00:51.098 +11:00 [INF] Creating stage.
+2026-01-24 02:00:51.098 +11:00 [INF] Creating stage.
+2026-01-24 02:00:51.249 +11:00 [INF] Skipping creation of STAGE SNOWCONVERT_AI.PUBLIC.MIGRATIONS_OUT, it already exists
+2026-01-24 02:00:51.277 +11:00 [INF] Skipping creation of STAGE SNOWCONVERT_AI.PUBLIC.MIGRATIONS, it already exists
+2026-01-24 02:00:51.277 +11:00 [INF] Writing code to stage.
+2026-01-24 02:00:51.278 +11:00 [INF] Generating zip file source.zip from directory F:\food_mart_snowconvert/source.
+2026-01-24 02:00:51.291 +11:00 [INF] Generating zip file converted.zip from directory F:\food_mart_snowconvert/converted.
+2026-01-24 02:00:51.355 +11:00 [INF] Writing zip files to ai-verification/JOB_20260123150050_IZF3YAV1/input.
+2026-01-24 02:00:51.980 +11:00 [INF] Finished writing code to stage.
+2026-01-24 02:00:51.980 +11:00 [INF] Starting AI Verification job.
+2026-01-24 02:00:51.980 +11:00 [INF] Base URL for AI Verification API: https://dinedfp-fs51767.snowflakecomputing.com
+2026-01-24 02:00:51.980 +11:00 [INF] Creating migration project MIGRATION_PROJECT_425ef951_fbe2_4570_9748_5dff53920feb in Snowflake Account.
+2026-01-24 02:00:52.159 +11:00 [INF] Creating agent job for migration MIGRATION_PROJECT_425ef951_fbe2_4570_9748_5dff53920feb in Snowflake Account.
+2026-01-24 02:01:08.255 +11:00 [INF] Successfully started AI Verification Job (id = JOB_20260123150050_IZF3YAV1).
+2026-01-24 02:01:08.255 +11:00 [INF] Started listening for progress updates from the AI Verification Job.
+2026-01-24 02:01:08.255 +11:00 [INF] Reading current status
+2026-01-24 02:01:08.731 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:08 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:08.743 +11:00 [INF] Reading current status
+2026-01-24 02:01:09.200 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:09 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:13.747 +11:00 [INF] Reading current status
+2026-01-24 02:01:14.203 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:14 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:19.207 +11:00 [INF] Reading current status
+2026-01-24 02:01:19.391 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:19 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:24.391 +11:00 [INF] Reading current status
+2026-01-24 02:01:24.551 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:24 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:29.552 +11:00 [INF] Reading current status
+2026-01-24 02:01:29.711 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:29 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:34.721 +11:00 [INF] Reading current status
+2026-01-24 02:01:35.056 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:35 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:40.057 +11:00 [INF] Reading current status
+2026-01-24 02:01:40.259 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:40 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:45.259 +11:00 [INF] Reading current status
+2026-01-24 02:01:45.479 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:45 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:50.479 +11:00 [INF] Reading current status
+2026-01-24 02:01:50.790 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:50 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:01:55.789 +11:00 [INF] Reading current status
+2026-01-24 02:01:55.958 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:01:55 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:00.958 +11:00 [INF] Reading current status
+2026-01-24 02:02:01.232 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:01 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:06.234 +11:00 [INF] Reading current status
+2026-01-24 02:02:06.552 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:06 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:11.552 +11:00 [INF] Reading current status
+2026-01-24 02:02:11.831 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:11 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:16.831 +11:00 [INF] Reading current status
+2026-01-24 02:02:17.106 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:17 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:22.106 +11:00 [INF] Reading current status
+2026-01-24 02:02:22.303 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:22 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:27.304 +11:00 [INF] Reading current status
+2026-01-24 02:02:27.520 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:27 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:32.521 +11:00 [INF] Reading current status
+2026-01-24 02:02:33.212 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:33 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:38.211 +11:00 [INF] Reading current status
+2026-01-24 02:02:38.383 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:38 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:43.383 +11:00 [INF] Reading current status
+2026-01-24 02:02:43.715 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:43 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:48.714 +11:00 [INF] Reading current status
+2026-01-24 02:02:48.874 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:48 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:53.882 +11:00 [INF] Reading current status
+2026-01-24 02:02:54.110 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:54 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:02:59.111 +11:00 [INF] Reading current status
+2026-01-24 02:02:59.664 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:02:59 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:03:04.664 +11:00 [INF] Reading current status
+2026-01-24 02:03:05.188 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:03:05 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:03:10.187 +11:00 [INF] Reading current status
+2026-01-24 02:03:10.440 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:03:10 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:03:15.441 +11:00 [INF] Reading current status
+2026-01-24 02:03:15.915 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:03:15 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:03:20.914 +11:00 [INF] Reading current status
+2026-01-24 02:03:21.179 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:03:21 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:03:26.178 +11:00 [INF] Reading current status
+2026-01-24 02:03:26.510 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:03:26 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:03:31.511 +11:00 [INF] Reading current status
+2026-01-24 02:03:31.775 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:03:31 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:03:36.775 +11:00 [INF] Reading current status
+2026-01-24 02:03:37.535 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:03:37 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:03:42.536 +11:00 [INF] Reading current status
+2026-01-24 02:03:42.765 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 is in state Last Updated: 23/01/2026 3:03:42 PM, Agent Status: PENDING, Exit Code: . Status won't be read from progress file.
+2026-01-24 02:03:47.764 +11:00 [INF] Reading current status
+2026-01-24 02:03:48.141 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 has status Last Updated: 23/01/2026 3:03:48 PM, Agent Status: RUNNING, Exit Code: . Reading status from progress file.
+2026-01-24 02:03:48.141 +11:00 [INF] Downloading job status data for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:03:48.141 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123150050_IZF3YAV1/output/progress.json
+2026-01-24 02:03:48.142 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:03:56.299 +11:00 [WRN] No progress.json file found for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:03:56.300 +11:00 [WRN] No progress update found for job JOB_20260123150050_IZF3YAV1 with status Last Updated: 23/01/2026 3:03:48 PM, Agent Status: RUNNING, Exit Code: 
+2026-01-24 02:04:01.300 +11:00 [INF] Reading current status
+2026-01-24 02:04:01.967 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 has status Last Updated: 23/01/2026 3:04:01 PM, Agent Status: RUNNING, Exit Code: . Reading status from progress file.
+2026-01-24 02:04:01.967 +11:00 [INF] Downloading job status data for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:01.967 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123150050_IZF3YAV1/output/progress.json
+2026-01-24 02:04:01.967 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:13.353 +11:00 [WRN] No progress.json file found for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:13.353 +11:00 [WRN] No progress update found for job JOB_20260123150050_IZF3YAV1 with status Last Updated: 23/01/2026 3:04:01 PM, Agent Status: RUNNING, Exit Code: 
+2026-01-24 02:04:18.353 +11:00 [INF] Reading current status
+2026-01-24 02:04:20.255 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 has status Last Updated: 23/01/2026 3:04:20 PM, Agent Status: RUNNING, Exit Code: . Reading status from progress file.
+2026-01-24 02:04:20.255 +11:00 [INF] Downloading job status data for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:20.255 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123150050_IZF3YAV1/output/progress.json
+2026-01-24 02:04:20.256 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:30.321 +11:00 [WRN] No progress.json file found for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:30.321 +11:00 [WRN] No progress update found for job JOB_20260123150050_IZF3YAV1 with status Last Updated: 23/01/2026 3:04:20 PM, Agent Status: RUNNING, Exit Code: 
+2026-01-24 02:04:35.322 +11:00 [INF] Reading current status
+2026-01-24 02:04:39.700 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 has status Last Updated: 23/01/2026 3:04:39 PM, Agent Status: RUNNING, Exit Code: . Reading status from progress file.
+2026-01-24 02:04:39.700 +11:00 [INF] Downloading job status data for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:39.703 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123150050_IZF3YAV1/output/progress.json
+2026-01-24 02:04:39.703 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:49.243 +11:00 [WRN] No progress.json file found for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:49.243 +11:00 [WRN] No progress update found for job JOB_20260123150050_IZF3YAV1 with status Last Updated: 23/01/2026 3:04:39 PM, Agent Status: RUNNING, Exit Code: 
+2026-01-24 02:04:54.251 +11:00 [INF] Reading current status
+2026-01-24 02:04:55.045 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 has status Last Updated: 23/01/2026 3:04:55 PM, Agent Status: RUNNING, Exit Code: . Reading status from progress file.
+2026-01-24 02:04:55.045 +11:00 [INF] Downloading job status data for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:04:55.045 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123150050_IZF3YAV1/output/progress.json
+2026-01-24 02:04:55.046 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:05:03.345 +11:00 [WRN] No progress.json file found for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:05:03.345 +11:00 [WRN] No progress update found for job JOB_20260123150050_IZF3YAV1 with status Last Updated: 23/01/2026 3:04:55 PM, Agent Status: RUNNING, Exit Code: 
+2026-01-24 02:05:08.361 +11:00 [INF] Reading current status
+2026-01-24 02:05:09.497 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 has status Last Updated: 23/01/2026 3:05:09 PM, Agent Status: FAILED, Exit Code: 23. Reading status from progress file.
+2026-01-24 02:05:09.497 +11:00 [INF] Downloading job status data for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:05:09.497 +11:00 [INF] Progress file path in stage: ai-verification/JOB_20260123150050_IZF3YAV1/output/progress.json
+2026-01-24 02:05:09.497 +11:00 [INF] Downloading progress file to C:\Users\Administrator\AppData\Local\Temp\2\ai-verification\JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:05:18.115 +11:00 [WRN] No progress.json file found for job JOB_20260123150050_IZF3YAV1.
+2026-01-24 02:05:18.115 +11:00 [WRN] No progress update found for job JOB_20260123150050_IZF3YAV1 with status Last Updated: 23/01/2026 3:05:09 PM, Agent Status: FAILED, Exit Code: 23
+2026-01-24 02:05:18.115 +11:00 [INF] Progress update for job JOB_20260123150050_IZF3YAV1 has been read (Status = "Error", Progress = 0/1).
+2026-01-24 02:05:23.117 +11:00 [INF] Job JOB_20260123150050_IZF3YAV1 has finished. No further progress updates will be read.

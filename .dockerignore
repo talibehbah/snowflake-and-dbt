@@ -18,3 +18,4 @@ airbnb/logs/
 
 # Documentation
 *.md
+*.log

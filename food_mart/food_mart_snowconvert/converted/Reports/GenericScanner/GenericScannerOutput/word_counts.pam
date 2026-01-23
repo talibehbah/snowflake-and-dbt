@@ -1,0 +1,202 @@
+FileId,Keyword,Count
+\database\foodmart_staging.sql,collate,1
+\database\foodmart_staging.sql,create database,1
+\schema\dbo.sql,authorization,1
+\schema\dbo.sql,create schema,1
+\schema\dbo.sql,go,1
+\schema\dbo.sql,use,1
+\table\dbo\account.sql,account,1
+\table\dbo\account.sql,collate,4
+\table\dbo\account.sql,create table,1
+\table\dbo\account.sql,go,1
+\table\dbo\account.sql,int,2
+\table\dbo\account.sql,null,6
+\table\dbo\account.sql,use,1
+\table\dbo\account.sql,varchar,4
+\table\dbo\category.sql,category,1
+\table\dbo\category.sql,collate,4
+\table\dbo\category.sql,create table,1
+\table\dbo\category.sql,go,1
+\table\dbo\category.sql,null,4
+\table\dbo\category.sql,use,1
+\table\dbo\category.sql,varchar,4
+\table\dbo\currency.sql,collate,1
+\table\dbo\currency.sql,create table,1
+\table\dbo\currency.sql,date,2
+\table\dbo\currency.sql,go,1
+\table\dbo\currency.sql,int,1
+\table\dbo\currency.sql,null,4
+\table\dbo\currency.sql,numeric,1
+\table\dbo\currency.sql,use,1
+\table\dbo\currency.sql,varchar,1
+\table\dbo\customer.sql,bigint,1
+\table\dbo\customer.sql,collate,21
+\table\dbo\customer.sql,create table,1
+\table\dbo\customer.sql,date,2
+\table\dbo\customer.sql,go,1
+\table\dbo\customer.sql,int,3
+\table\dbo\customer.sql,null,29
+\table\dbo\customer.sql,smallint,2
+\table\dbo\customer.sql,use,1
+\table\dbo\customer.sql,varchar,21
+\table\dbo\days.sql,collate,1
+\table\dbo\days.sql,create table,1
+\table\dbo\days.sql,day,1
+\table\dbo\days.sql,days,1
+\table\dbo\days.sql,go,1
+\table\dbo\days.sql,int,1
+\table\dbo\days.sql,null,2
+\table\dbo\days.sql,use,1
+\table\dbo\days.sql,varchar,1
+\table\dbo\department.sql,collate,1
+\table\dbo\department.sql,create table,1
+\table\dbo\department.sql,go,1
+\table\dbo\department.sql,int,1
+\table\dbo\department.sql,null,2
+\table\dbo\department.sql,use,1
+\table\dbo\department.sql,varchar,1
+\table\dbo\employee.sql,collate,8
+\table\dbo\employee.sql,create table,1
+\table\dbo\employee.sql,date,1
+\table\dbo\employee.sql,datetime,2
+\table\dbo\employee.sql,go,1
+\table\dbo\employee.sql,int,5
+\table\dbo\employee.sql,null,17
+\table\dbo\employee.sql,numeric,1
+\table\dbo\employee.sql,use,1
+\table\dbo\employee.sql,varchar,8
+\table\dbo\employee_closure.sql,create table,1
+\table\dbo\employee_closure.sql,go,1
+\table\dbo\employee_closure.sql,int,3
+\table\dbo\employee_closure.sql,null,3
+\table\dbo\employee_closure.sql,use,1
+\table\dbo\expense_fact.sql,collate,1
+\table\dbo\expense_fact.sql,create table,1
+\table\dbo\expense_fact.sql,datetime,1
+\table\dbo\expense_fact.sql,go,1
+\table\dbo\expense_fact.sql,int,4
+\table\dbo\expense_fact.sql,null,7
+\table\dbo\expense_fact.sql,numeric,1
+\table\dbo\expense_fact.sql,use,1
+\table\dbo\expense_fact.sql,varchar,1
+\table\dbo\inventory.sql,create table,1
+\table\dbo\inventory.sql,go,1
+\table\dbo\inventory.sql,int,6
+\table\dbo\inventory.sql,null,10
+\table\dbo\inventory.sql,numeric,3
+\table\dbo\inventory.sql,smallint,1
+\table\dbo\inventory.sql,use,1
+\table\dbo\position.sql,collate,3
+\table\dbo\position.sql,create table,1
+\table\dbo\position.sql,go,1
+\table\dbo\position.sql,int,1
+\table\dbo\position.sql,null,6
+\table\dbo\position.sql,numeric,2
+\table\dbo\position.sql,position,1
+\table\dbo\position.sql,use,1
+\table\dbo\position.sql,varchar,3
+\table\dbo\product.sql,bigint,1
+\table\dbo\product.sql,collate,2
+\table\dbo\product.sql,create table,1
+\table\dbo\product.sql,float,5
+\table\dbo\product.sql,go,1
+\table\dbo\product.sql,int,2
+\table\dbo\product.sql,null,15
+\table\dbo\product.sql,numeric,1
+\table\dbo\product.sql,smallint,4
+\table\dbo\product.sql,use,1
+\table\dbo\product.sql,varchar,2
+\table\dbo\product_class.sql,collate,4
+\table\dbo\product_class.sql,create table,1
+\table\dbo\product_class.sql,go,1
+\table\dbo\product_class.sql,int,1
+\table\dbo\product_class.sql,null,5
+\table\dbo\product_class.sql,use,1
+\table\dbo\product_class.sql,varchar,4
+\table\dbo\promotion.sql,collate,2
+\table\dbo\promotion.sql,cost,1
+\table\dbo\promotion.sql,create table,1
+\table\dbo\promotion.sql,datetime,2
+\table\dbo\promotion.sql,go,1
+\table\dbo\promotion.sql,int,2
+\table\dbo\promotion.sql,null,7
+\table\dbo\promotion.sql,numeric,1
+\table\dbo\promotion.sql,use,1
+\table\dbo\promotion.sql,varchar,2
+\table\dbo\region.sql,collate,5
+\table\dbo\region.sql,create table,1
+\table\dbo\region.sql,go,1
+\table\dbo\region.sql,int,2
+\table\dbo\region.sql,null,7
+\table\dbo\region.sql,use,1
+\table\dbo\region.sql,varchar,5
+\table\dbo\reserve_employee.sql,collate,7
+\table\dbo\reserve_employee.sql,create table,1
+\table\dbo\reserve_employee.sql,date,1
+\table\dbo\reserve_employee.sql,datetime,2
+\table\dbo\reserve_employee.sql,go,1
+\table\dbo\reserve_employee.sql,int,5
+\table\dbo\reserve_employee.sql,null,16
+\table\dbo\reserve_employee.sql,numeric,1
+\table\dbo\reserve_employee.sql,use,1
+\table\dbo\reserve_employee.sql,varchar,7
+\table\dbo\salary.sql,create table,1
+\table\dbo\salary.sql,datetime,1
+\table\dbo\salary.sql,float,2
+\table\dbo\salary.sql,go,1
+\table\dbo\salary.sql,int,3
+\table\dbo\salary.sql,null,8
+\table\dbo\salary.sql,numeric,2
+\table\dbo\salary.sql,use,1
+\table\dbo\sales.sql,create table,1
+\table\dbo\sales.sql,go,1
+\table\dbo\sales.sql,int,5
+\table\dbo\sales.sql,null,8
+\table\dbo\sales.sql,numeric,3
+\table\dbo\sales.sql,use,1
+\table\dbo\store.sql,collate,10
+\table\dbo\store.sql,create table,1
+\table\dbo\store.sql,date,2
+\table\dbo\store.sql,go,1
+\table\dbo\store.sql,int,7
+\table\dbo\store.sql,null,24
+\table\dbo\store.sql,smallint,5
+\table\dbo\store.sql,store,1
+\table\dbo\store.sql,use,1
+\table\dbo\store.sql,varchar,10
+\table\dbo\sysdiagrams.sql,create table,1
+\table\dbo\sysdiagrams.sql,definition,1
+\table\dbo\sysdiagrams.sql,go,1
+\table\dbo\sysdiagrams.sql,identity,1
+\table\dbo\sysdiagrams.sql,int,3
+\table\dbo\sysdiagrams.sql,name,1
+\table\dbo\sysdiagrams.sql,not null,3
+\table\dbo\sysdiagrams.sql,null,2
+\table\dbo\sysdiagrams.sql,use,1
+\table\dbo\sysdiagrams.sql,varbinary,1
+\table\dbo\sysdiagrams.sql,version,1
+\table\dbo\time_by_day.sql,collate,4
+\table\dbo\time_by_day.sql,create table,1
+\table\dbo\time_by_day.sql,date,1
+\table\dbo\time_by_day.sql,go,1
+\table\dbo\time_by_day.sql,int,2
+\table\dbo\time_by_day.sql,null,10
+\table\dbo\time_by_day.sql,quarter,1
+\table\dbo\time_by_day.sql,smallint,3
+\table\dbo\time_by_day.sql,use,1
+\table\dbo\time_by_day.sql,varchar,4
+\table\dbo\warehouse.sql,collate,12
+\table\dbo\warehouse.sql,create table,1
+\table\dbo\warehouse.sql,go,1
+\table\dbo\warehouse.sql,int,3
+\table\dbo\warehouse.sql,null,15
+\table\dbo\warehouse.sql,use,1
+\table\dbo\warehouse.sql,varchar,12
+\table\dbo\warehouse_class.sql,collate,1
+\table\dbo\warehouse_class.sql,create table,1
+\table\dbo\warehouse_class.sql,description,1
+\table\dbo\warehouse_class.sql,go,1
+\table\dbo\warehouse_class.sql,int,1
+\table\dbo\warehouse_class.sql,null,2
+\table\dbo\warehouse_class.sql,use,1
+\table\dbo\warehouse_class.sql,varchar,1
